@@ -19,4 +19,4 @@ Construct a marker gene database from database_sequences_1.fasta, which can be e
 
 # Run HUMAnN with a custom marker protein database
 
-  humann -i <metagenome.fastq> -o <output directory> --protein-database <path to DIAMOND database> --bypass-nucleotide-search
+  humann -i <metagenome.fastq> -o <output-directory> --protein-database <path-to-DIAMOND-database> --bypass-nucleotide-search
