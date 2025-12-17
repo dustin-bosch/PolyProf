@@ -15,7 +15,7 @@ Use the pre-constructed DIAMOND marker protein database polymorphic_profiler_dat
 OR
 Construct a marker gene database from database_sequences_1.fasta, which can be expanded with new sequences and effector/immunity families
 
-  diamond makedb --in database_sequences_1.fasta -d <output directory>
+  diamond makedb --in database_sequences_1.fasta -d <output_directory>
 
 # Run HUMAnN with a custom marker protein database
 
